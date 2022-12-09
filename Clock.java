@@ -28,7 +28,7 @@ public class Clock{
 		int m = sc.nextInt();
 		System.out.print("Enter Seconds : ");
 		int s = sc.nextInt();
-		if(h>=0&&h<24&&m>=0&&m<60&&s>=0&&s<60){
+		if(h>=0 && h<24 && m>=0 && m<60 && s>=0 && s<60){
 			System.out.println("Valid time :");
 			Clock c = new Clock(h,m,s);
 			c.displayTime();
