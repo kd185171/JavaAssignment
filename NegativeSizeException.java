@@ -15,7 +15,7 @@ public class MyException
 		Scanner sc = new Scanner(System.in);
 		int n = sc.nextInt();
 		int[] arr = new int[n];
-		for( int i = 0 ; i < n ; i++ ){
+		for( int i : arr){
     		try{
             	int temp = sc.nextInt();
     		    validate(temp);
